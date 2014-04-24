@@ -76,8 +76,10 @@ namespace hpl {
 		
 	private:
 		void Update();
-
-		double mlLocalTime;
+		
+		//why not use uint64_t? instead of doubles
+		
+		double mlLocalTime; 
 		double mlLocalTimeAdd;
 
 		int mlMaxUpdates;
